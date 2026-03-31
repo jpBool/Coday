@@ -1,0 +1,40 @@
+.ide-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #1e1e1e;
+  font-family: sans-serif;
+}
+
+.ide-header {
+  padding: 15px;
+  background-color: #252526;
+  color: white;
+  border-bottom: 1px solid #000;
+}
+
+.ide-title {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.language-selector {
+  padding: 8px;
+  margin-right: 10px;
+  background-color: #3c3c3c;
+  color: white;
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.language-selector:focus {
+  outline: none;
+  border-color: #007acc; /* VS Code patturn */
+}
+
+.editor-container {
+  flex-grow: 1;
+  padding-top: 10px;
+}
